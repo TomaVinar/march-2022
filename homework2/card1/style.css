@@ -1,0 +1,60 @@
+.main_block {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.card {
+    height: auto;
+    width: 280px;
+    background: blueviolet;
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 80%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-family: "Raleway ExtraLight";
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: Raleway;
+    line-height: 28px;
+}
+
+button {
+    width: 99%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background: white;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+button:hover {
+    background: beige;
+}

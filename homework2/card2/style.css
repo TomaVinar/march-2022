@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 40px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.card_item {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    align-items: center;
+    filter: drop-shadow(0px 2px 4px gainsboro);
+    background: white;
+    box-sizing: border-box;
+    padding: 32px 12px 32px 12px;
+}
+
+h5 {
+    font-size: 18px;
+    color: sienna;
+    font-family: "Arial Narrow";
+}
+
+p {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Montserrat;
+    width: 80%;
+}
+
+h2 {
+    font-family: "Arial Narrow";
+    margin: 0;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    background: aquamarine;
+    border: none;
+    margin-top: 20px;
+}
